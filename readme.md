@@ -19,7 +19,21 @@ Most challenges have a dataset/solution TTL of a few seconds, so performance
 isn't that important.
 
 
-## Development Environment
+## Prerequisites
+
+### Session Cookie
+
+Authentication is cookie-based. The current workflow of getting and storing
+session cookies is as follows:
+
+- Manually log in via the site's `/login` endpoint,
+- Execute `document.cookie` via devtools,
+- Save the `PHPSESSID` cookie in `/session.json`.
+
+Given the relatively low number of published programming challenges at the time
+of this writing, automation of the above steps does not seem warranted.
+
+### Environment
 
 - Linux
 - Node.js >= v6.2.2
