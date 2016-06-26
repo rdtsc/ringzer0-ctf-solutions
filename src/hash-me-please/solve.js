@@ -12,4 +12,4 @@ solve('13', ($) =>
         message = $('.message').text().replace(padding, '').trim();
 
   return crypto.createHash('sha512').update(message).digest('hex');
-}, code => console.log(code));
+});
