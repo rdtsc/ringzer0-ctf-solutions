@@ -37,6 +37,7 @@ of this writing, automation of the above steps does not seem warranted.
 
 - Linux
 - Node.js >= v6.2.2
+- GCC >= v4.8.4
 
 
 ## Development Notes
