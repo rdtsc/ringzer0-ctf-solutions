@@ -1,0 +1,18 @@
+# OS-specific noise files.
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Executable, library, shared object, and support files.
+*.exe
+*.out
+*.app
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+
+# Vendor files.
+node_modules
