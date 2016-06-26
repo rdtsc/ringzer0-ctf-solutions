@@ -39,6 +39,16 @@ of this writing, automation of the above steps does not seem warranted.
 - Node.js >= v6.2.2
 
 
+## Development Notes
+
+The `/session.json` file changes relatively often. In order to not pollute the
+commit log, set the `assume-unchanged` bit on it after cloning:
+
+```text
+$ git update-index --assume-unchanged session.json
+```
+
+
 ## License and Copyright
 
 All original code is released under the [MIT license][mit], unless otherwise
