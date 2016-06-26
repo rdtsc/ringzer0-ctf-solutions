@@ -3,7 +3,7 @@ I Hate Mathematics
 
 > You have 2 seconds to send the answer.
 >
-> Send the answer back using `https://ringzer0team.com/challenges/32/[answer]`
+> Send the answer back using `https://ringzer0team.com/challenges/32/[answer]`.
 
 
 The message is non-static and refreshes with each request. Below is an example
