@@ -1,5 +1,9 @@
 {
   "name": "ringzer0-ctf-solutions",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "dependencies":
+  {
+    "request": "~2.72.0"
+  }
 }
