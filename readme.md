@@ -1,7 +1,7 @@
 # RingZer0 Programming CTF Solutions
 
 This repository houses my personal solutions to
-[RingZe0's programming challenges][home].
+[RingZer0's programming challenges][home].
 
 It is strongly encouraged that you do not view my solutions unless you've
 already solved the relevant problems yourself.
