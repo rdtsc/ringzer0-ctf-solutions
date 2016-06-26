@@ -21,7 +21,7 @@ isn't that important.
 
 ## Prerequisites
 
-### Session Cookie
+### Session Cookies
 
 Authentication is cookie-based. The current workflow of getting and storing
 session cookies is as follows:
