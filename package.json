@@ -5,6 +5,7 @@
   "dependencies":
   {
     "cheerio": "~0.20.0",
-    "request": "~2.72.0"
+    "request": "~2.72.0",
+    "fnv1a": "~1.0.1"
   }
 }
