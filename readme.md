@@ -13,7 +13,7 @@ Each challenge consists of some (typically non-static) dataset that must be
 processed according to the problem statement and submitted back to the specified
 URI via a `GET` request. Assuming a correct and timely submission, a level
 unlock flag is injected into the server's response which then must be extracted
-and `POST`ed back to the challenge endpoint in question.
+and `POST`-ed back to the challenge endpoint in question.
 
 Most challenges have a dataset/solution TTL of a few seconds, so performance
 isn't that important.
