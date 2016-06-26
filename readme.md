@@ -19,6 +19,12 @@ Most challenges have a dataset/solution TTL of a few seconds, so performance
 isn't that important.
 
 
+## Development Environment
+
+- Linux
+- Node.js >= v6.2.2
+
+
 ## License and Copyright
 
 All original code is released under the [MIT license][mit], unless otherwise
