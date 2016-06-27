@@ -25,7 +25,7 @@ const toKey =
                                .map(word => dictionary[toKey(word)])
                                .filter(Boolean);
 
-    if(words.length === targetWordCount) return words.join(',');
+    if(words.length === targetWordCount) return words.join();
 
     else setTimeout(attempt, 1000);
   };
