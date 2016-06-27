@@ -16,7 +16,7 @@ solve('32', ($) =>
                             .map(n => /^[01]+$/.test(n) ? `0b${n}` : n)
                             .join('')
                             .split('')
-                            .filter(c => /^[-+=\/\da-fx]$/i.test(c))
+                            .filter(c => /^[-+*=\/\da-fx]$/i.test(c))
                             .join('');
 
   return eval(expression);
