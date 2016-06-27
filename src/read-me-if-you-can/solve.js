@@ -19,5 +19,5 @@ getCaptcha((png) =>
 {
   const captcha = toAscii(png, config.keyColor, config.mapping);
 
-  return segment(captcha, ' ').map(decode).join('');
+  return segment(captcha, config.mapping.background).map(decode).join('');
 });
