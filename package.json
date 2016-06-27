@@ -11,6 +11,7 @@
     "node-uuid": "~1.4.7",
     "glob": "~7.0.5",
     "pngjs": "~2.3.1",
-    "progress": "~1.1.8"
+    "progress": "~1.1.8",
+    "readline-sync": "~1.4.4"
   }
 }
