@@ -33,7 +33,7 @@ session cookies is as follows:
 Given the relatively low number of published programming challenges at the time
 of this writing, automation of the above steps does not seem warranted.
 
-### Environment
+### Local Environment
 
 - Linux
 - Node.js >= v6.2.2
