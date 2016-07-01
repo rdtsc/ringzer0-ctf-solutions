@@ -56,8 +56,8 @@ $ git update-index --assume-unchanged session.json
 All original code is released under the [MIT license][mit], unless otherwise
 specified.
 
-All referenced product names, trademarks, and logos are property of their
-respective owners.
+All referenced product names, trademarks, logos, and images are property of
+their respective owners.
 
 
 [home]: https://ringzer0team.com/challenges/
