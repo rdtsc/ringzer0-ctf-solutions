@@ -32,5 +32,5 @@ than to SSH into a server. Once connected, the following prompt is displayed:
 >
 > Submit all the sudoku table using this format from left to right 1,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,1...
 
-After responding back with a valid serialized Sudoku grid, the flag is revealed.
-A new Sudoku grid is generated upon each connection.
+A new Sudoku grid is generated upon each connection. After responding back with
+a valid serialized Sudoku grid, the flag is revealed.
