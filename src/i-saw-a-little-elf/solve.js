@@ -2,8 +2,8 @@
 
 'use strict';
 
-const fs     = require('fs'),
-      exec   = require('child_process').execSync;
+const fs   = require('fs'),
+      exec = require('child_process').execSync;
 
 const solve = require('../../lib/solve');
 
