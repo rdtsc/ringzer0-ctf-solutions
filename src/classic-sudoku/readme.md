@@ -4,9 +4,9 @@ Classic Sudoku
 No instructions are provided in the problem statement for challenge 143, other
 than to SSH into a server. Once connected, the following prompt is displayed:
 
-> RingZer0 Team Online CTF
 > The sudoku challenge
 >
+> ```text
 > +---+---+---+---+---+---+---+---+---+
 > |   | 7 | 6 |   |   | 2 |   | 9 | 4 |
 > +---+---+---+---+---+---+---+---+---+
@@ -26,11 +26,10 @@ than to SSH into a server. Once connected, the following prompt is displayed:
 > +---+---+---+---+---+---+---+---+---+
 > |   | 5 | 7 | 6 |   |   |   |   | 9 |
 > +---+---+---+---+---+---+---+---+---+
->
+> ```
 >
 > Solve this sudoku in less than 10 seconds and you'll get the flag.
-> Submit all the sudoku table using this format from left to right 1,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,1...
 >
-> Solution:
+> Submit all the sudoku table using this format from left to right 1,2,3,4,5,6,7,8,9,2,3,4,5,6,7,8,9,1...
 
 After responding back with a valid serialized Sudoku grid, the flag is revealed.
