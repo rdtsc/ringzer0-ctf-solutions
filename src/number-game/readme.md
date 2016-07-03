@@ -9,4 +9,4 @@ than to SSH into a server. Once connected, the following prompt is displayed:
 > You need to find the right number and win 10 games in less than 30 seconds.
 
 After winning ten of these number guessing games in the allotted time, the flag
-is revealed.
+is revealed. Numbers are randomly generated for each session.
