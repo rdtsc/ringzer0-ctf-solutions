@@ -60,7 +60,7 @@
 
     const background = new Image();
 
-    background.src = './data/card.jpg';
+    background.src = '../data/card.jpg';
 
     background.onload = () =>
     {
