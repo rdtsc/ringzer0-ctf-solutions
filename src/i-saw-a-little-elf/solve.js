@@ -3,9 +3,7 @@
 'use strict';
 
 const fs     = require('fs'),
-      exec   = require('child_process').execSync,
-      assert = require('assert'),
-      crypto = require('crypto');
+      exec   = require('child_process').execSync;
 
 const solve = require('../../lib/solve');
 
