@@ -147,9 +147,7 @@
           }
         });
 
-        if(pattern.length) result.push(mapping[pattern.join(',')]);
-
-        else result.push(' ');
+        result.push(pattern.length ? mapping[pattern.join(',')] : ' ');
       });
 
       callback(result.join(''));
