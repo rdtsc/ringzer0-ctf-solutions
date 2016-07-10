@@ -1,5 +1,7 @@
 (() =>
 {
+  const imageWidth = 1600;
+
   const xOffsets =
   [
     55, 75, 94, 112, 131, 152, 169, 188, 207, 226, 244, 265, 282, 302, 321,
@@ -107,7 +109,7 @@
 
     background.onload = () =>
     {
-      initializeCanvas(canvas, context, background, 1600);
+      initializeCanvas(canvas, context, background, imageWidth);
 
       const log = document.querySelector('#log');
 
