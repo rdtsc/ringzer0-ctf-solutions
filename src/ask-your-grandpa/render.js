@@ -131,7 +131,7 @@
           }
         });
 
-        result.push(pattern.length ? mapping[pattern.join(',')] : ' ');
+        log.innerText += (pattern.length ? mapping[pattern.join(',')] : ' ');
       });
     };
   });
