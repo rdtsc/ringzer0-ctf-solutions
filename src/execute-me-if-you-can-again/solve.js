@@ -22,7 +22,7 @@ solve('125', ($) =>
     try
     {
       // YOLO!
-      return exec(`./exec.out "${payload.join('')}"`);
+      return exec(`./exec.out '${payload.join('')}'`);
     }
 
     catch(error)
